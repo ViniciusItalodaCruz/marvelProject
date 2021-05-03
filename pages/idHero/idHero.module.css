@@ -1,0 +1,122 @@
+.pattern_marvel{
+    background: url('https://i.pinimg.com/originals/f8/2e/6a/f82e6a3771d142e0a7722fcbb6e860a6.jpg'), black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header_search{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header_search h3{
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.header_search img{
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.buttonBack{
+    color: white;
+    font-size: 2em;
+    background-image: linear-gradient(to top, #630704 0%, #9E0002 100%);
+    opacity: 0.5;
+    border-radius: 50%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 20px;
+}
+
+
+.Container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+
+}
+
+.Container h1{
+    background-image: linear-gradient(to top, #630704 0%, #9E0002 100%);
+    padding: 10px 0;
+    color: white;
+    display: block;
+}
+
+.Container .Subtitle{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2em;
+}
+
+.Container .Subtitle:after,
+.Container .Subtitle:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px auto;
+    background-color: white; 
+}
+
+.Container img{
+    border-radius: 33px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.Container p{
+    color: white;
+    padding: 20px 40px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.ContentSeries,
+.ContentComic{
+    padding: 20px;
+    background-color: #223;
+    color: white;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.4);
+}
+
+.ContentStories{
+    color: white;
+    padding: 20px;
+    background-color: #223;
+}
+
+.ContentComic ul li,
+.ContentStories ul li,
+.ContentSeries ul li{
+    margin: 20px 0;
+}
+
+.ContentComic ul li a,
+.ContentStories ul li a,
+.ContentSeries ul li a{
+    transition: all 0.3s ease;
+}
+
+.ContentComic ul li a:hover,
+.ContentStories ul li a:hover,
+.ContentSeries ul li a:hover{
+    color: crimson;
+}

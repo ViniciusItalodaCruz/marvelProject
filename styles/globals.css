@@ -1,0 +1,91 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: linear-gradient(to right, #42506d 0%, #894b5a 100%);
+  height: 100%;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+:root{
+  --color-red-main: #9E0002;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+p{
+  color: red;
+}
+
+.introducao{ 
+  background-image: url('https://uhdwallpapers.xyz/media/images/ori/2020/09/01/marvel-spider-man-miles-morales-wallpaper-4573451598939914.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.introducao:after{
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.3;
+}
+
+.searchBox{
+  background-color: #222;
+  color: white;
+  font-size: 2em;
+  outline: none;
+  border: none;
+  border-top-left-radius: 33px;
+  border-bottom-left-radius: 33px;
+  padding: 15px 30px;
+  width: 700px;
+  z-index: 1;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: var(--color-red-main);
+  outline: none;
+  border: none;
+  border-top-right-radius: 33px;
+  border-bottom-right-radius: 33px;
+  color: white;
+  font-size: 2em;
+  padding: 15px 20px;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.2s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+  background-color: #1E0200;
+}
+
+button .icon{
+  font-size: .8em;
+  transition: all 0.3s ease;
+}
+
+button .icon:hover{
+  transform: rotate(45deg);
+}
